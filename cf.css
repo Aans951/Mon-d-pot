@@ -1,0 +1,29 @@
+@keyframes colorChange {
+    0% {
+        color: white;
+    }
+    50% {
+        color: pink;
+    }
+    100% {
+        color: #00ff9d; /* Vous pouvez ajuster la teinte de rose ici */
+    }
+}
+
+.color-changing-text {
+    display: inline-block;
+    animation: colorChange 10s infinite;
+}
+
+.hero-container {
+    text-align: center;
+}
+
+#hero {
+    height: 100vh;
+    background: #000; /* Couleur de fond pour le contraste */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
